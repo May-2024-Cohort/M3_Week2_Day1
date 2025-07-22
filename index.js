@@ -170,7 +170,7 @@ CREATE:
 
 UPDATE:
 
-.findOneAndUpdate({title:"Star Wars"}, {rating:9}): will find the movie with the query from the first arugment and change the rating to 9. 
+.updateOne({title:"Star Wars"}, {rating:9}): will find the movie with the query from the first arugment and change the rating to 9. 
 
 .updateMany({director:"George Lucas"}, {rating:9}): will find all the movies with the director being george lucas and change the rating to 9. 
 
